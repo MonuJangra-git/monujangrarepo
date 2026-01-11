@@ -35,7 +35,7 @@ elif resp == '2':
     print(scanner.scaninfo())
     print("ip status is :- ", scanner[ip_addrs].state())
     print(scanner[ip_addrs].all_protocols())
-    if 'tcp' in scanner[ip_addrs]:
+    if 'udp' in scanner[ip_addrs]:
         print(scanner[ip_addrs]['udp'].keys()) 
 elif resp == '3':
     print(nmap.__version__)
