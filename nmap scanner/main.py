@@ -10,7 +10,7 @@ ip_addrs = input("enter ip address :- ")
 resp = input('''which type of scan you want 
                 1. SYN ACK scan
                 2. UDP scan
-                3. compressive scan ''')
+                3. compressive scan \n ''')
 # conditional statements to check which type of scan user wants
 if resp == '1':
     # printing nmap version
