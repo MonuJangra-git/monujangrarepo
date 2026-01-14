@@ -7,7 +7,7 @@ print("type 'stop' to stop putting inputs")
 while True:
 
     inp = (input("enter number:- "))
-    if inp == "stop":
+    if inp.lower() == "stop":
         break 
     try :
         num = int(inp)     
@@ -54,3 +54,4 @@ if typ == 2 :
 # print(min(lis))
 
 #by using this we can find highest and lowest number
+
