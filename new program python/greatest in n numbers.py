@@ -3,9 +3,10 @@ i = 1
 typ = int(input("you want to find highest number press 1 or lowest number press 2:- "))
 if typ != 1 and typ != 2 :
     print("invalid input")
+print("type 'stop' to stop putting inputs")    
 while True:
 
-    inp = (input("enter number"))
+    inp = (input("enter number:- "))
     if inp == "stop":
         break 
     try :
@@ -51,4 +52,5 @@ if typ == 2 :
 #     k+=1  
 # print(low)  
 # print(min(lis))
+
 #by using this we can find highest and lowest number
